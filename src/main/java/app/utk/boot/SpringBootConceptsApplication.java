@@ -30,6 +30,8 @@ public class SpringBootConceptsApplication implements CommandLineRunner, Applica
 
 	@Override
 	public void run(ApplicationArguments args) throws Exception { // runs first
+
+		//ajk
 		// can be used to read the arguments in key-value pair
 		System.out.println("INSIDE APPLICATION RUNNER");
 		System.out.println(args.getNonOptionArgs());

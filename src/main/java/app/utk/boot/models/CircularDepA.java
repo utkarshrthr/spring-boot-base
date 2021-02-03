@@ -9,6 +9,9 @@ import org.springframework.stereotype.Component;
 public class CircularDepA {
 
     private CircularDepB circB;
+//kj]]sxf
+
+
 
     @Autowired
     public CircularDepA(CircularDepB circB) {
